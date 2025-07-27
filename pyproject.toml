@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "duckduckgo-mcp"
+version = "0.1.0"
+description = "A Model Context Protocol server for DuckDuckGo search"
+authors = [
+    {name = "Tingzhen Du", email = ""}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "duckduckgo-search>=6.0.0",
+]
+
+[project.scripts]
+duckduckgo-mcp = "duckduckgo_mcp.server:main_sync"
+
+[tool.hatch.build.targets.wheel]
+packages = ["duckduckgo_mcp"]
