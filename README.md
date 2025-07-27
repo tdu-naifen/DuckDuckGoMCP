@@ -1,0 +1,2 @@
+# DuckDuckGoMCP
+DuckDuckGoMCP
