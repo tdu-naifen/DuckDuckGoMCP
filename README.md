@@ -1,4 +1,5 @@
 # DuckDuckGo MCP Server
+[![smithery badge](https://smithery.ai/badge/@tdu-naifen/duckduckgomcp)](https://smithery.ai/server/@tdu-naifen/duckduckgomcp)
 
 A Model Context Protocol (MCP) server that provides DuckDuckGo search capabilities to AI assistants and other MCP clients.
 
@@ -12,6 +13,14 @@ A Model Context Protocol (MCP) server that provides DuckDuckGo search capabiliti
 - **Fast & Reliable**: Built with the FastMCP framework for optimal performance
 
 ## Installation
+
+### Installing via Smithery
+
+To install duckduckgomcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@tdu-naifen/duckduckgomcp):
+
+```bash
+npx -y @smithery/cli install @tdu-naifen/duckduckgomcp --client claude
+```
 
 ### Prerequisites
 
