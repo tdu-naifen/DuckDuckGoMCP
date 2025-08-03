@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides DuckDuckGo search capabilities to AI assistants and other MCP clients.
 
+[![smithery badge](https://smithery.ai/badge/@tdu-naifen/duckduckgomcp)](https://smithery.ai/server/@tdu-naifen/duckduckgomcp)
+
 ## Features
 
 - **Web Search**: Search DuckDuckGo for web results with titles, URLs, and snippets
